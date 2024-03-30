@@ -1,0 +1,88 @@
+body {
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    user-select: none;
+}
+
+#app-window {
+    max-width: 320px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#cat-in-cart {
+    width: 150px;
+    margin-top: 0 auto;
+}
+
+input {
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    color: #432000;
+    background-color: #DCE1EB;
+    margin: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    padding: 15px
+}
+
+input::placeholder {
+    color: #b0b0b0;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    color: #e5cbf3;
+    background-color: #887db0;
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #675b91;
+    cursor: pointer;
+}
+
+ul {
+    width: 300px;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+ul li {
+    flex: 1 1 0;
+    background-color: #FFFDF8;
+    color: #9b8fc4;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+ul li:hover {
+    background-color: #e5cbf3;
+    cursor: pointer;
+}
